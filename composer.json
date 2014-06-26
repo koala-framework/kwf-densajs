@@ -1,0 +1,16 @@
+{
+    "name": "koala-framework/kwf-densajs",
+    "description": "DensaJS Integration for Koala Framework",
+    "homepage": "http://www.koala-framework.org/",
+    "license": "BSD-2-Clause",
+    "type": "library",
+    "require": {
+        "koala-framework/densajs": "master",
+        "koala-framework/koala-framework": "dev-master"
+    },
+    "autoload": {
+        "psr-0": {
+            "Kwf_Densa_": ""
+        }
+    }
+}
