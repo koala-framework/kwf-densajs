@@ -5,12 +5,18 @@
     "license": "BSD-2-Clause",
     "type": "library",
     "require": {
-        "koala-framework/densajs": "master",
         "koala-framework/koala-framework": "dev-master"
+    },
+    "extra": {
+        "require-bower": {
+            "densajs": "master"
+        }
     },
     "autoload": {
         "psr-0": {
             "Kwf_Densa_": ""
         }
-    }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
