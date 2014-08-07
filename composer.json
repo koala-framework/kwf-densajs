@@ -9,7 +9,7 @@
     },
     "extra": {
         "require-bower": {
-            "densajs": "master"
+            "densajs": "ext5"
         }
     },
     "autoload": {
