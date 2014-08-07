@@ -1,4 +1,5 @@
 Ext4.onReady(function() {
+    if (typeof Densa == 'undefined') return;
     if (Densa.action && Densa.action.Add) {
         Densa.action.Add.prototype.defaultText = trlKwf('Add');
     }
