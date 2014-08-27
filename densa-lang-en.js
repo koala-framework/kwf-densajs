@@ -1,15 +1,15 @@
 Ext4.onReady(function() {
-    if (Densa.action && Densa.action.Add) {
-        Densa.action.Add.prototype.defaultText = trlKwf('Add');
+    if (Densa.defaultButton && Densa.defaultButton.Add) {
+        Densa.defaultButton.Add.prototype.defaultText = trlKwf('Add');
     }
-    if (Densa.action && Densa.action.Delete) {
-        Densa.action.Delete.prototype.defaultText = trlKwf('Delete');
+    if (Densa.defaultButton && Densa.defaultButton.Delete) {
+        Densa.defaultButton.Delete.prototype.defaultText = trlKwf('Delete');
     }
-    if (Densa.action && Densa.action.ExportCsv) {
-        Densa.action.ExportCsv.prototype.defaultText = trlKwf('Export CSV');
+    if (Densa.defaultButton && Densa.defaultButton.ExportCsv) {
+        Densa.defaultButton.ExportCsv.prototype.defaultText = trlKwf('Export CSV');
     }
-    if (Densa.action && Densa.action.Save) {
-        Densa.action.Save.prototype.defaultText = trlKwf('Save');
+    if (Densa.defaultButton && Densa.defaultButton.Save) {
+        Densa.defaultButton.Save.prototype.defaultText = trlKwf('Save');
     }
     if (Densa.editWindow && Densa.editWindow.Window) {
         Densa.editWindow.Window.prototype.saveText = trlKwf('Save');
