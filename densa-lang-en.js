@@ -1,4 +1,4 @@
-Ext4.onReady(function() {
+Ext.onReady(function() {
     if (typeof Densa == 'undefined') return;
     if (Densa.defaultButton && Densa.defaultButton.Add) {
         Densa.defaultButton.Add.prototype.defaultText = trlKwf('Add');
