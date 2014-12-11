@@ -30,7 +30,7 @@ Ext4.onReady(function() {
         Densa.form.PanelController.prototype.deleteConfirmText = trlKwf('Do you really wish to remove this entry?');
         Densa.form.PanelController.prototype.saveValidateErrorTitle = trlKwf('Save');
         Densa.form.PanelController.prototype.saveValidateErrorMsg = trlKwf("Can't save, please fill all red underlined fields correctly.");
-
+        Densa.form.PanelController.prototype.validatingMaskText = trlKwf("Validating...");
     }
     if (Densa.grid && Densa.grid.PanelController) {
         Densa.grid.PanelController.prototype.deleteConfirmTitle = trlKwf('Delete');
