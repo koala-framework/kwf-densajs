@@ -21,7 +21,7 @@ class Kwf_Densa_Assets_ExtOverridesProvider extends Kwf_Assets_Provider_Abstract
         // remove comments to avoid dependencies from docs/examples
         $fileContents = preg_replace('!/\*[^*]*\*+([^/][^*]*\*+)*'.'/!', '', $fileContents);
 
-        if ($dependency instanceof Kwf_Ext_Assets_JsDependency) {
+        if ($dependency instanceof Kwf_Ext_Assets_JsDependency || $dependency instanceof Kwf_Densa_Assets_JsDependency) {
             if (preg_match('#Ext4?\.define\(\s*[\'"]([a-zA-Z0-9\._]+)[\'"]#', $fileContents, $m)) {
                 $define = $m[1];
                 $overrides = self::_getOverrides();
@@ -61,6 +61,11 @@ class Kwf_Densa_Assets_ExtOverridesProvider extends Kwf_Assets_Provider_Abstract
                 }
             }
         }
+
+        //static list for overrides in kwf-densajs
+        //if we add more we could also parse that
+        $ret['Densa.grid.PanelController'] = array('Kwf.Densa.overrides.GridPanelController');
+
         return $ret;
     }
 }
