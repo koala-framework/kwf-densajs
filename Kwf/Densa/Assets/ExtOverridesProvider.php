@@ -48,7 +48,7 @@ class Kwf_Densa_Assets_ExtOverridesProvider extends Kwf_Assets_Provider_Abstract
         $it = new RecursiveIteratorIterator(new RecursiveDirectoryIterator(VENDOR_PATH.'/bower_components/densajs/src/overrides'), RecursiveIteratorIterator::LEAVES_ONLY);
         foreach ($it as $i) {
             if (substr($i->getPathname(), -3) != '.js') continue;
-            $depName = 'Densa.'.str_replace('/', '.', substr($i->getPathname(), strlen(VENDOR_PATH.'/bower_components/densajs/src/'), -3));
+            $depName = 'Densa.'.str_replace(array('/', '\\'), '.', substr($i->getPathname(), strlen(VENDOR_PATH.'/bower_components/densajs/src/'), -3));
             $fileContents = file_get_contents($i->getPathname());
 
             // remove comments to avoid dependencies from docs/examples
