@@ -37,7 +37,7 @@ Ext4.onReady(function() {
         Densa.grid.PanelController.prototype.deleteConfirmText = trlKwf('Do you really wish to remove this entry?');
         Densa.grid.PanelController.prototype.exportProgressTitle = trlKwf('Export');
         Densa.grid.PanelController.prototype.exportProgressMsg = trlKwf('Exporting rows...');
-
+        Densa.grid.PanelController.prototype.excelExportWorksheetName = trlKwf("Worksheet");
     }
     if (Densa.mvc && Densa.mvc.bindable && Densa.mvc.bindable.ViewController) {
         Densa.mvc.bindable.ViewController.prototype.deleteConfirmTitle = trlKwf('Delete');
