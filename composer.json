@@ -9,7 +9,7 @@
     },
     "extra": {
         "require-bower": {
-            "densajs": "993fefc855c8f356d7de8c4edd95fca4ef4193c3"
+            "densajs": "8d90b3316dfaa2f9134c4d50d99f201956d643a1"
         }
     },
     "autoload": {
