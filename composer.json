@@ -10,6 +10,10 @@
     "extra": {
         "require-bower": {
             "densajs": "b22c4ed1e8af4e2783e7412b348d624d9b0166cb"
+        },
+        "kwf-lingohub": {
+            "account": "koala-framework",
+            "project": "kwf-densajs"
         }
     },
     "autoload": {
