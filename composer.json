@@ -9,7 +9,7 @@
     },
     "extra": {
         "require-bower": {
-            "densajs": "b22c4ed1e8af4e2783e7412b348d624d9b0166cb"
+            "densajs": "8149c3a2e406af090edfff15d88f57d7a0ab6408"
         },
         "kwf-lingohub": {
             "account": "koala-framework",
