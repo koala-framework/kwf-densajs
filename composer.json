@@ -9,7 +9,7 @@
     },
     "extra": {
         "require-bower": {
-            "densajs": "e5a32ff59f424412bda5762cf17121aaf349031c"
+            "densajs": "64e938afe8b601c18e543c0b11db17dbacf20dbc"
         },
         "kwf-lingohub": {
             "account": "vivid-planet",
